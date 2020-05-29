@@ -54,8 +54,6 @@ Currently, Sparkify is storing the majority of their data in .json files, which 
 
 The database schema follows the Snowflake style, with one fact table (songplays) and four dimension tables (time, users, songs and artists).
 
-![Database schema](schema.png)
-
 The songplays table has foreign key constraints to all dimensions and well as a composite primary key, made out of all foreign keys.
 
 ## ETL Processes
